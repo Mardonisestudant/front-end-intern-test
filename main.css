@@ -4,9 +4,94 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
+input[type=submit] {
 
-h1 {
+  font-family: Open Sans Bold;
+  font-size: -22px;
+  box-shadow: 1px 3px 8px  E0FFFF;
+}
+
+textarea{
+	font-family: Open Sans Ligth;
+	font-size: -18px;
+}
+
+#h1{
     font-family: 'Cookie', cursive;
     font-size: 71px;
-    color: purple;
+    color: #ffff;
+    text-align: center;
+    line-height: 0.7;
+    margin-top:65px;
+
 }
+
+body{
+	background-image: url('assets/04-BG.png');
+	background-repeat: no-repeat;
+}
+
+
+#bg{
+	filter: ;
+	height: 65px;
+	background: #E0FFFF;
+	margin-bottom: 70px;
+
+}
+#top{
+	width: 100%;
+	height: 100px;
+  	line-height: 200px;
+	text-align: center;
+	position:absolute;
+	margin: 0 auto;
+	margin-left: 35%;
+
+}
+#logo{
+	margin-top:10px;
+}
+
+#colorsubmit{
+	background-color: #E0FFFF;
+}
+
+
+
+.back {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.div-center {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 1em 2em;
+  border-bottom: 0px solid #ccc;
+  display: table;
+}
+
+div.container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+

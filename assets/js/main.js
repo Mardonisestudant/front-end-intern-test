@@ -43,7 +43,6 @@
     // A propriedade "length" contém o tamanho (em caracteres) de uma
     // uma string. Toda string contém essa propriedade.
     const nameLength = nameValue.length;
-    const textAlength = emailValue.length;
 
 
     // "window" é um objeto global que representa a janela (ou aba) do
