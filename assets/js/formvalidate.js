@@ -24,10 +24,15 @@ function validar(){
    }
 
    if(message == ""){
-    alert("O Campo message está vazio ou limite maior que 20");
+    alert("O Campo message está vazio");
     myform.message.focus();
     return false;
 
+   }
+
+   if(message.length > 100){
+    alert("A sua mesagem deve ter ate 100 caracteres")
+    return false;
    }
 
 
