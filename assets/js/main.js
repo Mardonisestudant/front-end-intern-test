@@ -5,7 +5,7 @@
   const contactForm = document.getElementById('contact');
 
   // Campos do formulário
-  const nameInput = document.getElementById('name');
+  const nameInput = myform.name.value;
   const emailInput = document.getElementById('email');
   const messageInput = document.getElementById('message');
 
@@ -16,24 +16,7 @@
   // executada toda vez que o botão de envio for pressionado.
   contactForm.addEventListener('submit', function() {
 
-    if(document.myform.name.value == ""){
-    window.alert("Campo nome é obrigatorio");
-    return false;
-    }
 
-
-    if(document.myform.email.value == ""){
-    window.alert("Campo email é obrigatorio");
-    return false;
-
-
-    }
-
-
-    if(document.myform.message.value == ""){
-    window.alert("Campo message é obrigatorio");
-    return false;
-  }
     // A propriedade "value" contém o valor atual de um input ou textarea
 
     const nameValue = nameInput.value;
