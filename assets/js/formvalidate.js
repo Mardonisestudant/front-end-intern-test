@@ -10,9 +10,8 @@ function validar(){
 
 /*verifica se os valores do form esta vazio em seguida retorna falso*/
    if(nome == ""){
-
     alert("O campo nome está vazio");
-     myform.nome.focus();
+    myform.nome.focus();
     return false;
    }
 
@@ -23,20 +22,16 @@ function validar(){
     return false;
    }
 
-   if(message == ""){
-    alert("O Campo message está vazio");
+   if(message == "" || message.length > 100){
+    alert("O Campo message está vazio ou tem mais de 100 caracteres");
     myform.message.focus();
     return false;
 
    }
 
-    /*se textearea for maior que 100 caracteres*/
-   if(message.length > 100){
-    alert("A sua mesagem deve ter ate 100 caracteres")
-    return false;
-   }
 
-
-   window.alert("Muito Obrigado!" + nome + " Em breve entraremos em contato com vovê ");
+   window.alert("Muito Obrigado!" + nome + " Em breve entraremos em contato com você ");
    return false;
   }
+
+  

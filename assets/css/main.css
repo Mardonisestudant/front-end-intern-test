@@ -52,7 +52,7 @@ body{
 #bgtop{
 	height: 60px;
 	background:  rgba(185, 218, 204, 1);
-  border-bottom: 0px;
+  border: 0px;
 
 
 }
@@ -94,6 +94,22 @@ div.container {
   vertical-align: middle;
 }
 
+/*Media Queries*/
+
+@media (max-width: 578px) { 
+
+
+#h1{
+   font-family: 'Cookie', regular;
+  font-size: 50px;
+}
+
+#bgtop{
+  margin-top:;
+}
+
+
+}
 
 
 
