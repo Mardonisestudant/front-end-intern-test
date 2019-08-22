@@ -1,5 +1,5 @@
 
-/* functions onclick no botão submit*/
+/* function onclick no botão submit*/
 
 function validar(){
   
@@ -30,6 +30,7 @@ function validar(){
 
    }
 
+    /*se textearea for maior que 100 caracteres*/
    if(message.length > 100){
     alert("A sua mesagem deve ter ate 100 caracteres")
     return false;
