@@ -38,7 +38,7 @@ font-size: -18px;
     color: #ffff;
     text-align: center;
     line-height: 0.7;
-    margin-top:90px;
+    margin-top:120px;
 
 }
 
@@ -50,7 +50,7 @@ body{
 
 
 #bgtop{
-	height: 60px;
+	height: 70px;
 	background:  rgba(185, 218, 204, 1);
   border: 0px;
 
@@ -58,7 +58,7 @@ body{
 }
 
 #logo{
-	margin-top:10px;
+	margin-top:15px;
 }
 
 
