@@ -22,7 +22,7 @@ font-size: -18px;
 }
 
 #colorsubmit{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   color: #ffff;
   font-size: -22px;
   font-weight: bold;
@@ -33,7 +33,7 @@ font-size: -18px;
 }
 
 #h1{
-    font-family: 'Cookie', regular;
+    font-family: 'Cookie', cursive;
     font-size: 71px;
     color: #ffff;
     text-align: center;
@@ -100,14 +100,22 @@ div.container {
 
 
 #h1{
-   font-family: 'Cookie', regular;
-  font-size: 50px;
+   font-family: 'Cookie', cursive;
+    font-size: 50px;
 }
 
-#bgtop{
-  margin-top:;
+  input[type="text"]{
+      width: 450px;
 }
 
+  #message{
+      width: 450px;
+}
+
+  #colorsubmit{
+    font-family: 'Open Sans';
+    width: 450px;
+}
 
 }
 
